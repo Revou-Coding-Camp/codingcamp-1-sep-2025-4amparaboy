@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    background: #191919;
+    color: #e6edf3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+.container {
+    background: #161b22;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    width: 500px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.form input,
+.form button {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.text-success {
+    color: #2ea043;
+}
+
+.text-warning {
+    color: #d29922;
+}
+
+#taskInput {
+    flex: 2;
+}
+
+#dateInput {
+    flex: 1;
+}
+
+#addBtn {
+    background: #F75270;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.controls button {
+    background: #44444E;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background: #F75270;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 10px;
+    border-bottom: 1px solid #44444E;
+}
+
+.actions button {
+    margin-right: 5px;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#filterInput {
+    padding: 8px;
+    border-radius: 6px;
+}
+
+#filterBtn {
+    background: #F75270;
+    color: white;
+    border-radius: 6px;
+
+}
+
+#deleteAllBtn {
+    background: #f85149;
+    color: white;
+    border-radius: 6px;
+}
+
+.complete {
+    background: #2ea043;
+    color: white;
+}
+
+.delete {
+    background: #f85149;
+    color: white;
+}
+
+.empty {
+    text-align: center;
+    color: #8b949e;
+}
